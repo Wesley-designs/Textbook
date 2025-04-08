@@ -5,7 +5,8 @@ public class Book
     private double price; 
 
     public Book (String bookTitle, double bookPrice) { 
-        /* implementation not shown */ 
+        title = bookTitle;
+        price = bookPrice;
     }
 
     public String getTitle() { 
@@ -13,7 +14,7 @@ public class Book
     } 
 
     public String getBookInfo() { 
-        return title + 
+        return title + "-"
         + price; 
     } 
 
